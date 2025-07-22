@@ -1,0 +1,4 @@
+```txt
+ultralytics
+opencv-python
+psycopg2-binary
