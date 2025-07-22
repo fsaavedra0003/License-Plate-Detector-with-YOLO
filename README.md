@@ -19,6 +19,13 @@ This project uses [YOLOv8](https://github.com/ultralytics/ultralytics) for autom
 - PostgreSQL 13+
 - YOLOv8 model (custom-trained or pretrained)
 
+
+----
+##🧾 Clone the Repository
+
+git clone https://github.com/fsaavedra0003/license-plate-detector.git
+cd license-plate-detector
+
 Install dependencies:
 
 ```bash
