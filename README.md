@@ -14,12 +14,26 @@ This project uses [YOLOv8](https://github.com/ultralytics/ultralytics) for autom
 ---
 
 ## 📁 Project Structure
+
+```bash
 license-plate-detector/
-├── README.md # Project documentation
-├── requirements.txt # Python dependencies
-├── config.py # PostgreSQL & model config
-├── detect_and_save.py # Main detection & DB logic
+├── README.md               # Project documentation
+├── requirements.txt        # Python dependencies
+├── config.py               # PostgreSQL & model config
+├── detect_and_save.py      # Main detection & DB logic
 ├── db/
-│ └── init.sql # SQL script to initialize DB schema
-├── detected/ # Saved cropped license plate images
-├── images/ # Input images for detection
+│   └── init.sql            # SQL script to initialize DB schema
+├── detected/               # Saved cropped license plate images
+├── images/                 # Input images for detection
+
+
+## 🛠️ Requirements
+
+- Python 3.8+
+- PostgreSQL 13+
+- YOLOv8 model (custom-trained or pretrained)
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
