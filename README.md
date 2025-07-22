@@ -13,6 +13,20 @@ This project uses [YOLOv8](https://github.com/ultralytics/ultralytics) for autom
 
 ---
 
+## 🛠️ Requirements
+
+- Python 3.8+
+- PostgreSQL 13+
+- YOLOv8 model (custom-trained or pretrained)
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+
+
+
+
 ## 📁 Project Structure
 
 ```bash
@@ -27,13 +41,4 @@ license-plate-detector/
 ├── images/                 # Input images for detection
 
 
-## 🛠️ Requirements
 
-- Python 3.8+
-- PostgreSQL 13+
-- YOLOv8 model (custom-trained or pretrained)
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
