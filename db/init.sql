@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS plates (
+    id SERIAL PRIMARY KEY,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    image_path TEXT NOT NULL,
+    bbox TEXT NOT NULL
+);
