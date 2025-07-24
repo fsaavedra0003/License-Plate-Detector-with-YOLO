@@ -2,6 +2,19 @@
 
 This project uses [YOLOv8](https://github.com/ultralytics/ultralytics) for automatic **license plate detection** from images and stores the detection metadata in a **PostgreSQL** database. Cropped images of the detected plates are saved locally.
 
+
+-This project leverages YOLOv8, a state-of-the-art object detection model, to automatically detect and extract vehicle license plates from images. It is designed as a pipeline that performs the following steps:
+
+-Object Detection: YOLOv8 is used to detect license plates within input images with high accuracy and speed.
+
+-Image Cropping: Detected license plates are cropped from the original images and saved locally for further analysis or archiving.
+
+-Metadata Storage: Detection results — including image filenames, bounding box coordinates, timestamps, and confidence scores — are stored in a PostgreSQL database for efficient querying and tracking.
+
+-Scalable Architecture: The modular design allows integration with video streams, APIs, or edge devices (e.g., Raspberry Pi, Jetson Nano) for real-time detection scenarios.
+
+-This project can be used in applications such as parking management systems, traffic monitoring, toll collection, and smart surveillance, where license plate recognition is essential.
+
 ---
 
 ## 📌 Features
@@ -10,6 +23,12 @@ This project uses [YOLOv8](https://github.com/ultralytics/ultralytics) for autom
 - 💾 Saves bounding box metadata and image paths in PostgreSQL.
 - 🖼 Automatically crops and saves detected plate images.
 - 🧱 Modular structure for easy extension (e.g. OCR, API endpoints).
+
+
+
+
+
+
 
 ---
 
