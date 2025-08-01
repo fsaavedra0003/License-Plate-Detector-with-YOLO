@@ -1,4 +1,4 @@
-# PostgreSQL Configuration
+# PostgreSQL Configuration for db
 DB_CONFIG = {
     'dbname': 'platesdb',
     'user': 'postgres',
