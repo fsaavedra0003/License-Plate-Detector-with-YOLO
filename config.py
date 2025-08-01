@@ -2,7 +2,7 @@
 DB_CONFIG = {
     'dbname': 'platesdb',
     'user': 'postgres',
-    'password': 'your_password',  # ⚠ Replace with your actual password
+    'password': 'your_password',  # Replace with your actual password
     'host': 'localhost',
     'port': 5432
 }
