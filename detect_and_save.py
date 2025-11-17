@@ -18,7 +18,7 @@ Path("detected").mkdir(exist_ok=True)
 def detect_and_store(image_path):
     image = cv2.imread(image_path)
     results = model(image)[0]
-
+# determine the dimensions of the images
     for det in results.boxes.data:
         x1, y1, x2, y2, conf, cls = det.cpu().numpy()
         cropped = image[int(y1):int(y2), int(x1):int(x2)]
