@@ -23,6 +23,7 @@ This project uses [YOLOv8](https://github.com/ultralytics/ultralytics) for autom
 - 💾 Saves bounding box metadata and image paths in PostgreSQL.
 - 🖼 Automatically crops and saves detected plate images.
 - 🧱 Modular structure for easy extension (e.g. OCR, API endpoints).
+- Fast processing 
 
 
 
